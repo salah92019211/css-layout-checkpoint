@@ -1,0 +1,440 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+div .navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  color: #ababab;
+}
+
+li a span {
+  color: #00c3a5;
+}
+
+
+#a {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  color: #00c3a5;
+  text-align: center;
+}
+
+#section0 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 70%;
+  margin: auto;
+}
+
+#section0 div {
+  width: 350px;
+  height: 200px;
+}
+#section0 p{color: #ababab;}
+
+#section1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 100%;
+  grid-template-areas: "patients""doctors""clinics";
+  column-gap: 10px;
+  padding-left: 10px;
+  width: 70%;
+  margin: auto;
+  padding-right: 10px;
+  color: white;
+  font-weight: 100;
+  font-size: larger;
+  font-family: Roboto;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+
+}
+
+
+.section1 h3 {
+  padding: 20px;
+  margin: 10px;
+
+}
+
+.section1 p {
+  margin: 20px;
+  padding: 10px;
+}
+
+select {
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+  color: white;
+  font-size: 22px;
+}
+
+option {
+  color: gray;
+}
+
+.patients {
+  background-color: #00ccb1;
+  border-radius: 10px;
+  width: 250px;
+  height: 300px;
+  padding: 30px;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+
+.doctors {
+  background-color: #3d83df;
+  border-radius: 10px;
+  height: 300px;
+  padding: 30px;
+  font-size: 22px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+
+}
+
+.clinics {
+  background-color: #1b2734;
+  border-radius: 10px;
+  height: 300px;
+  font-size: 22px;
+  padding: 30px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+
+}
+
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.item7 { grid-area: hi; }
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    
+    'menu hello hi main right footer'
+    'menu hello hi main right footer';
+  gap: 0px;
+  background-color:white;
+  padding: 10px;
+}
+
+.grid-container > div {
+
+  text-align: center;
+  padding: 00px ;
+  font-size: 20px;
+}
+.item2 {
+color: #6bb39b;
+
+width: 100px;
+
+}
+.item4{
+height: 60px;
+width: 160px;
+}
+.item3{width: 160px;}
+.item2{width: 160px;}
+.item5{width: 160px;}
+.item7{width: 160px;}
+
+.section3 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: #d6f5f6;
+  width: 100%;
+  margin: auto;
+  padding-top: 10px;
+  height: 420px;
+
+}
+
+.col-1 {
+  position: relative;
+  width: 80%;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.col-1 p {
+  color: gray;
+  text-transform: lowercase;
+}
+
+.col-2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  padding: 10px;
+  grid-gap: 10px;
+  height: 400px;
+  justify-content: space-between;
+}
+
+.translate {
+  transform: translateY(20px);
+}
+
+.card p {
+  color: gray;
+  font-size: 16;
+  text-transform: lowercase;
+}
+
+.card h4 {
+  color: #00ccb1;
+  font-size: 18px;
+}
+
+.card {
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  height: 145px;
+}
+
+.logo {
+  position: absolute;
+  top: 30%;
+}
+
+.section4 h2 {
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  color: #00ccb1;
+}
+
+.section4 p {
+  margin: auto;
+  width: 40%;
+  text-align: center;
+  color: gray;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+
+#premier {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#premier div {
+
+  width: 250px;
+  height: 300px;
+  padding: 30px;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#second {
+
+  display: flex;
+  width: 70%;
+  margin: auto;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#second div {
+
+  width: 250px;
+  height: 300px;
+  padding: 30px;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#third {
+
+  display: flex;
+  width: 70%;
+  margin: auto;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#third div {
+
+  width: 250px;
+  height: 300px;
+  padding: 30px;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+button {
+  background-color: #3d83df;
+  border: 0;
+  outline: 0;
+  width: 120px;
+  height: 40px;
+  color: white;
+  border-radius: 10px;
+}
+
+.contact p {
+  text-align: center;
+  padding: 5px;
+  color: #333;
+  width: 30%;
+  margin: auto;
+  height: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+
+}
+
+.contact button {
+  background-color: #008CBA;
+  color: white;
+  width: 25%;
+  margin: auto;
+  text-align: center;
+  display: block;
+  height: 40px;
+  border: none;
+  margin-bottom: 20px;
+
+}
+
+footer {
+
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  color: gray;
+
+}
+
+@media (max-width:500px) {
+  h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  #section0 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+  }
+
+  #section0 p {
+    text-align: center;
+    width: 100%;
+  }
+
+  #section1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 70%;
+    margin: auto;
+    /*grid-gap:10px;*/
+    text-align: center;
+  }
+
+  .patients {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .doctors {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .clinics {
+    width: 100%;
+    margin-bottom: 5px;
+
+
+  }
+
+  .section3 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-columns: (2, 1fr);
+    background-color: #d6f5f6;
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+    height: 420px;
+  }
+
+  .card p {
+    width: 100%;
+    color: gray;
+    font-size: 16;
+    text-align: center;
+
+  }
+
+  .card h4 {
+    width: 100%;
+    text-align: center;
+    color: #00ccb1;
+    font-size: 18px;
+  }
+}
